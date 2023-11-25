@@ -1,0 +1,863 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+-------------------------
+<ul style="background-color: #E10601;">
+<li>
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-mlb-streams/">
+<span class="link-text" style="border: none">MLB</span>
+</a>
+</li>
+<li class="MobilMenu" style="display: none;">
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-f1-streams/">
+<span class="link-text" style="border: none">F1</span>
+</a>
+</li>
+<li>
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-nba-streams/">
+<span class="link-text" style="border: none">NBA</span>
+</a>
+</li>
+<li>
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-nhl-streams/">
+<span class="link-text" style="border: none">NHL</span>
+</a>
+</li>
+<li>
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-nfl-streams/">
+<span class="link-text" style="border: none">NFL</span>
+</a>
+</li>
+<li class="MobilMenu" style="display: none;">
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-boxing-streams/">
+<span class="link-text" style="border: none">BOXING</span>
+</a>
+</li>
+<li class="MobilMenu" style="display: none;">
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-ufc-streams/">
+<span class="link-text" style="border: none">UFC</span>
+</a>
+</li>
+<li>
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ccce-cfb-streams/">
+<span class="link-text" style="border: none">CFB</span>
+</a>
+</li>
+<li class="MobilMenu" style="display: none;">
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="ncaab-streams/">
+<span class="link-text" style="border: none">NCAAB</span>
+</a>
+</li>
+<style type="text/css">
+										.UstAcilirMenuler a:hover{
+											border: 10px solid #38383f !important;
+											border-bottom: 0 !important;
+											border-left: 0 !important;
+											background-color: unset !important;
+										}
+
+										.AltMenuIsareti{
+											display: inline-block;
+											margin-top: 1px;
+											right: 10px;
+											content: "\e903";
+  										}
+									</style>
+<li class="expandable MobilMenuGizle">
+<a class="nav-mainlink" data-locationinpage="navigation" data-pathtype="internal" href="#">
+<span style="border-top: 0; border-left: 0; display: inline-block; padding: 0 20px 7px 0;">OTHER</span>
+</a>
+<div class="nav-secondary">
+<div class="ns-wrapper">
+<div class="nav-width">
+<div class="nav-contents">
+<div class="nav-list racing UstAcilirMenuler" data-started-color="#A3915E">
+<div class="racing-events clearfix">
+<div class="racing-cards"></div>
+<div class="racing-cards">
+<a class="event" data-locationinpage="secondary_navigation" data-pathtype="internal" href="./bd-ncaab-streams/" title="NCAAB">
+<div class="caption f1-bold--xs f1-color--white f1-bg--carbonBlack f1-uppercase">NCAA Basketball</div>
+<div class="card">
+<div class="image-holder">
+<img alt="ncaa basketball streams" class="raceimage lazy loaded" data-src="https://www.thestreameast.to/images/ncaa.webp" data-was-processed="true" src="https://www.thestreameast.to/images/ncaa.webp"/>
+</div>
+</div>
+</a>
+</div>
+<div class="racing-cards">
+<a class="event" data-locationinpage="secondary_navigation" data-pathtype="internal" href="./bd-f1-streams/" title="F1">
+<div class="caption f1-bold--xs f1-color--white f1-bg--carbonBlack f1-uppercase">Formula 1</div>
+<div class="card">
+<div class="image-holder">
+<img alt="formula 1 streams" class="raceimage lazy loaded" data-src="https://www.thestreameast.to/images/f1seast-min.webp" data-was-processed="true" src="https://www.thestreameast.to/images/f1seast-min.webp"/>
+</div>
+</div>
+</a>
+</div>
+<div class="racing-cards">
+<a class="event" data-locationinpage="secondary_navigation" data-pathtype="internal" href="./bd-boxing-streams/" title="BOXING">
+<div class="caption f1-bold--xs f1-color--white f1-bg--carbonBlack f1-uppercase">BOXING</div>
+<div class="card">
+<div class="image-holder">
+<img alt="boxing streams" class="raceimage lazy loaded" data-src="https://www.thestreameast.to/images/boxingseast-min.webp" data-was-processed="true" src="https://www.thestreameast.to/images/boxingseast-min.webp"/>
+</div>
+</div>
+</a>
+</div>
+<div class="racing-cards">
+<a class="event" data-locationinpage="secondary_navigation" data-pathtype="internal" href="./bd-ufc-streams/" title="UFC">
+<div class="caption f1-bold--xs f1-color--white f1-bg--carbonBlack f1-uppercase">UFC</div>
+<div class="card">
+<div class="image-holder">
+<img alt="ufc streams" class="raceimage lazy loaded" data-src="https://www.thestreameast.to/images/ufc2-min.webp" data-was-processed="true" src="https://www.thestreameast.to/images/ufc2-min.webp"/>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a class="nav-mainlink" href="multi-stream">
+<span class="link-text" style="border: none">Multi Stream</span>
+<span style="position: absolute; background-color: #1f1f27; border-radius: 50%; top: 0; margin-top: 5px; margin-right: 5px; right: 0; font-size: 8px; width: 25px; height: 25px; text-align: center; line-height: 25px;">Pro</span>
+</a>
+</li>
+</ul>
+-------------------------
+-------------------------
+<ul>
+<li>
+<a class="btn btn--alpha btn--icon-left" href="https://www.thestreameast.to/login" style="display: inline-block;">
+<span class="user-icon-text"><i class="icon icon-user"></i>Sign In </span>
+</a>
+</li>
+<li>
+<a class="btn btn--alpha btn--icon-left" href="https://www.thestreameast.to/register">
+<span class="user-icon-text"><i class="icon icon-user"></i>Register </span>
+</a>
+</li>
+</ul>
+-------------------------
+-------------------------
+<ul class="f1-tab-list">
+<li class="f1-tab f1--xs CanliMacListeleme">
+<a href="#LiveGames" onclick="$('#CanliMaclar').show();$('#GelecekMaclarListeleme').hide(); return false;">Live Games</a>
+</li>
+<li class="f1-tab f1--xs">
+<a href="#Upcoming" onclick="$('#GelecekMaclarListeleme').show();$('#CanliMaclar').hide(); return false;">Upcoming</a>
+</li>
+</ul>
+-------------------------
+-------------------------
+<ul class="f1-podium f1-color--carbonBlack" id="CanliMaclar">
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/college-gameday-10/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">College GameDay</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">College GameDay</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih" data-zaman="1700920800">LIVE</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<input name="ToplamCanliMac" type="hidden" value="1"/><input name="Kategori" type="hidden" value="0"/><input name="Takim" type="hidden" value="0"/> </ul>
+-------------------------
+-------------------------
+<ul class="f1-podium f1-color--carbonBlack" id="GelecekMaclar">
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/kentucky-wildcats-louisville-cardinals/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Kentucky Wildcats - Louisville Cardinals</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Kentucky Wildcats - Louisville Card...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/navy-smu-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Navy - SMU</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Navy - SMU</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/troy-southern-miss/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Troy - Southern Miss</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Troy - Southern Miss</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/miami-oh-ball-state/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Miami (OH) - Ball State</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Miami (OH) - Ball State</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/texas-a-m-aggies-lsu-tigers-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Texas A&amp;M Aggies - LSU Tigers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Texas A&amp;M Aggies - LSU Tigers</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/pittsburgh-panthers-duke-blue-devils-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Pittsburgh Panthers - Duke Blue Devils</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Pittsburgh Panthers - Duke Blue Dev...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/ohio-state-buckeyes-michigan-wolverines/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Ohio State Buckeyes - Michigan Wolverines</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Ohio State Buckeyes - Michigan Wolv...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/indiana-hoosiers-purdue-boilermakers-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Indiana Hoosiers - Purdue Boilermakers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Indiana Hoosiers - Purdue Boilermak...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/houston-cougars-ucf-knights-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Houston Cougars - UCF Knights</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Houston Cougars - UCF Knights</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700931600">25.11.2023 8:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/boston-bruins-new-york-rangers-3/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Boston Bruins - New York Rangers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Boston Bruins - New York Rangers</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700935200">25.11.2023 9:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/colorado-buffaloes-utah-utes-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Colorado Buffaloes - Utah Utes</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Colorado Buffaloes - Utah Utes</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700942400">25.11.2023 11:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/james-madison-coastal-carolina/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">James Madison - Coastal Carolina</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">James Madison - Coastal Carolina</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/georgia-southern-appalachian-state/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Georgia Southern - Appalachian State</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Georgia Southern - Appalachian Stat...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<div class="DigerMaclariGoster2 65621e653c463" style="display: none">
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/arizona-wildcats-arizona-state-sun-devils-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Arizona Wildcats - Arizona State Sun Devils</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Arizona Wildcats - Arizona State Su...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/byu-cougars-oklahoma-state-cowboys-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">BYU Cougars - Oklahoma State Cowboys</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">BYU Cougars - Oklahoma State Cowboy...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/alabama-crimson-tide-auburn-tigers/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Alabama Crimson Tide - Auburn Tigers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Alabama Crimson Tide - Auburn Tiger...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/liberty-flames-utep-miners-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Liberty Flames - UTEP Miners</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Liberty Flames - UTEP Miners</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/northwestern-wildcats-illinois-fighting-illini-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Northwestern Wildcats - Illinois Fighting Illini</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Northwestern Wildcats - Illinois Fi...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/vanderbilt-commodores-tennessee-volunteers-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Vanderbilt Commodores - Tennessee Volunteers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Vanderbilt Commodores - Tennessee V...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/virginia-tech-hokies-virginia-cavaliers-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Virginia Tech Hokies - Virginia Cavaliers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Virginia Tech Hokies - Virginia Cav...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/wisconsin-badgers-minnesota-golden-gophers-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Wisconsin Badgers - Minnesota Golden Gophers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Wisconsin Badgers - Minnesota Golde...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700944200">25.11.2023 11:30 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/montreal-canadiens-los-angeles-kings-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Montreal Canadiens - Los Angeles Kings</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Montreal Canadiens - Los Angeles Ki...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700946000">26.11.2023 12:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/washington-state-cougars-washington-huskies/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Washington State Cougars - Washington Huskies</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Washington State Cougars - Washingt...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700946000">26.11.2023 12:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nba/philadelphia-76ers-oklahoma-city-thunder-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NBA</span>
+<span class="team-color-icon" style="background:#F596C8"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Philadelphia 76ers - Oklahoma City Thunder</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Philadelphia 76ers - Oklahoma City ...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700949600">26.11.2023 1:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nba/miami-heat-brooklyn-nets-3/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NBA</span>
+<span class="team-color-icon" style="background:#F596C8"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Miami Heat - Brooklyn Nets</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Miami Heat - Brooklyn Nets</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700953200">26.11.2023 2:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nba/atlanta-hawks-washington-wizards-4/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NBA</span>
+<span class="team-color-icon" style="background:#F596C8"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Atlanta Hawks - Washington Wizards</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Atlanta Hawks - Washington Wizards</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700956800">26.11.2023 3:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/buffalo-sabres-new-jersey-devils-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Buffalo Sabres - New Jersey Devils</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Buffalo Sabres - New Jersey Devils</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700956800">26.11.2023 3:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/toronto-maple-leafs-pittsburgh-penguins-3/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Toronto Maple Leafs - Pittsburgh Penguins</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Toronto Maple Leafs - Pittsburgh Pe...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700956800">26.11.2023 3:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/notre-dame-fighting-irish-stanford-cardinal/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Notre Dame Fighting Irish - Stanford Cardinal</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Notre Dame Fighting Irish - Stanfor...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700956800">26.11.2023 3:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/florida-state-seminoles-florida-gators/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Florida State Seminoles - Florida Gators</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Florida State Seminoles - Florida G...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700956800">26.11.2023 3:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/west-virginia-mountaineers-baylor-bears/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">West Virginia Mountaineers - Baylor Bears</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">West Virginia Mountaineers - Baylor...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700956800">26.11.2023 3:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nba/los-angeles-lakers-cleveland-cavaliers-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NBA</span>
+<span class="team-color-icon" style="background:#F596C8"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Los Angeles Lakers - Cleveland Cavaliers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Los Angeles Lakers - Cleveland Cava...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700958600">26.11.2023 3:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/philadelphia-flyers-new-york-islanders-5/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Philadelphia Flyers - New York Islanders</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Philadelphia Flyers - New York Isla...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700958600">26.11.2023 3:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/charlotte-south-florida/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Charlotte - South Florida</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Charlotte - South Florida</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700958600">26.11.2023 3:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/georgia-bulldogs-georgia-tech-yellow-jackets/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Georgia Bulldogs - Georgia Tech Yellow Jackets</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Georgia Bulldogs - Georgia Tech Yel...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700958600">26.11.2023 3:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/kansas-jayhawks-cincinnati-bearcats-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Kansas Jayhawks - Cincinnati Bearcats</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Kansas Jayhawks - Cincinnati Bearca...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700958600">26.11.2023 3:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/clemson-tigers-south-carolina-gamecocks-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Clemson Tigers - South Carolina Gamecocks</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Clemson Tigers - South Carolina Gam...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700958600">26.11.2023 3:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/north-carolina-nc-state-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">North Carolina - NC State</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">North Carolina - NC State</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700960400">26.11.2023 4:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="boxing/david-benavidez-vs-demetrius-andrade/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">BOX</span>
+<span class="team-color-icon" style="background:#94100E"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">David Benavidez vs. Demetrius Andrade</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">David Benavidez vs. Demetrius Andra...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700960400">26.11.2023 4:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/iowa-state-cyclones-kansas-state-wildcats/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Iowa State Cyclones - Kansas State Wildcats</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Iowa State Cyclones - Kansas State ...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700960400">26.11.2023 4:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/wyoming-nevada/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Wyoming - Nevada</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Wyoming - Nevada</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700964000">26.11.2023 5:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nba/new-orleans-pelicans-utah-jazz-3/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NBA</span>
+<span class="team-color-icon" style="background:#F596C8"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">New Orleans Pelicans - Utah Jazz</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">New Orleans Pelicans - Utah Jazz</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700965800">26.11.2023 5:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/calgary-flames-colorado-avalanche-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Calgary Flames - Colorado Avalanche</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Calgary Flames - Colorado Avalanche</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700967600">26.11.2023 6:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/vancouver-canucks-san-jose-sharks-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Vancouver Canucks - San Jose Sharks</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Vancouver Canucks - San Jose Sharks</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700967600">26.11.2023 6:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nhl/arizona-coyotes-vegas-golden-knights-2/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NHL</span>
+<span class="team-color-icon" style="background:#FFF500"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Arizona Coyotes - Vegas Golden Knights</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Arizona Coyotes - Vegas Golden Knig...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700967600">26.11.2023 6:00 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="nba/dallas-mavericks-los-angeles-clippers-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">NBA</span>
+<span class="team-color-icon" style="background:#F596C8"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Dallas Mavericks - Los Angeles Clippers</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Dallas Mavericks - Los Angeles Clip...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700969400">26.11.2023 6:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/fresno-state-san-diego-state-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">Fresno State - San Diego State</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">Fresno State - San Diego State</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700969400">26.11.2023 6:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="cfb/california-golden-bears-ucla-bruins/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">CFB</span>
+<span class="team-color-icon" style="background:#00D2BE"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">California Golden Bears - UCLA Bruins</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">California Golden Bears - UCLA Brui...</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1700969400">26.11.2023 6:30 AM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+<li class="f1-podium--item">
+<a class="f1-podium--link f1-bg--white" href="f1/f1-abu-dhabi-grand-prix-1/">
+<span class="f1-podium--rank f1-bold--xs MacBaslikKat" style="min-width: 35px;">F1</span>
+<span class="team-color-icon" style="background:#FF0B0B"></span>
+<span class="f1-podium--driver f1--xs MacBaslik">
+<span class="d-md-inline f1-capitalize MacIsimleri">F1 Abu Dhabi Grand Prix</span>
+<span class="d-md-inline f1-capitalize MobilMacIsimleri">F1 Abu Dhabi Grand Prix</span>
+</span>
+<span class="f1-podium-right">
+<span class="f1-podium--time f1-label f1-bg--gray2 misc--label text-semi-bold MacBaslikSagTarih SaatZamanBilgisi" data-zaman="1701003600">26.11.2023 4:00 PM</span>
+<i class="icon icon-chevron-right f1-color--warmRed"></i>
+</span>
+</a>
+</li>
+</div><input name="Kategori" type="hidden" value="0"/><input name="Takim" type="hidden" value="0"/> </ul>
+-------------------------

@@ -1,0 +1,9 @@
+<html>
+	<body>
+		<h1>Available streams (Streameast)</h1>
+			{% for stream in streams %}
+				<li class="stream-item">
+					{{ stream.league }}: <a href="{{ stream.url }}">{{ stream.name }}</a>
+			{% endfor %}
+	</body>
+</html>
